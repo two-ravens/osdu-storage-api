@@ -1,0 +1,260 @@
+lockVersion: 2.0.0
+id: 44d98916-7ce8-4872-8682-cf16e8fb637b
+management:
+  docChecksum: 9a57e779c06c4aad814e741520b045da
+  docVersion: 2.0.0
+  speakeasyVersion: 1.409.0
+  generationVersion: 2.429.0
+  releaseVersion: 0.0.1
+  configChecksum: e78b720f8c05dc2f5dddefb31c1cb6cd
+features:
+  go:
+    additionalDependencies: 0.1.0
+    core: 3.5.12
+    defaultEnabledRetries: 0.2.0
+    envVarSecurityUsage: 0.3.1
+    flattening: 2.81.1
+    globalSecurity: 2.82.10
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.2
+    intellisenseMarkdownSupport: 0.1.0
+    responseFormat: 0.1.2
+    retries: 2.83.0
+    sdkHooks: 0.1.0
+    unions: 2.85.9
+generatedFiles:
+  - .gitattributes
+  - /models/components/acl.go
+  - /models/components/apperror.go
+  - /models/components/bulkupdaterecordsresponse.go
+  - /models/components/connectedouterservice.go
+  - /models/components/conversionstatus.go
+  - /models/components/createupdaterecordsresponse.go
+  - /models/components/datastorequeryresult.go
+  - /models/components/httpmetadata.go
+  - /models/components/legal.go
+  - /models/components/multirecordids.go
+  - /models/components/multirecordinfo.go
+  - /models/components/multirecordrequest.go
+  - /models/components/multirecordresponse.go
+  - /models/components/patchoperation.go
+  - /models/components/patchrecordsresponse.go
+  - /models/components/record.go
+  - /models/components/recordancestry.go
+  - /models/components/recordbulkupdateparam.go
+  - /models/components/recordquery.go
+  - /models/components/recordversions.go
+  - /models/components/security.go
+  - /models/components/versioninfo.go
+  - /models/operations/bulkdeleterecords.go
+  - /models/operations/createorupdaterecords.go
+  - /models/operations/deleterecord.go
+  - /models/operations/fetchrecords.go
+  - /models/operations/getallrecords.go
+  - /models/operations/getlatestrecordversion.go
+  - /models/operations/getrecords.go
+  - /models/operations/getrecordversions.go
+  - /models/operations/getspecificrecordversion.go
+  - /models/operations/healthmessage.go
+  - /models/operations/info.go
+  - /models/operations/purgerecord.go
+  - /models/operations/updaterecordsmetadata1.go
+  - /models/sdkerrors/apperror.go
+  - CONTRIBUTING.md
+  - USAGE.md
+  - docs/models/components/acl.md
+  - docs/models/components/apperror.md
+  - docs/models/components/bulkupdaterecordsresponse.md
+  - docs/models/components/connectedouterservice.md
+  - docs/models/components/conversionstatus.md
+  - docs/models/components/createupdaterecordsresponse.md
+  - docs/models/components/data.md
+  - docs/models/components/datastorequeryresult.md
+  - docs/models/components/httpmetadata.md
+  - docs/models/components/legal.md
+  - docs/models/components/meta.md
+  - docs/models/components/multirecordids.md
+  - docs/models/components/multirecordinfo.md
+  - docs/models/components/multirecordrequest.md
+  - docs/models/components/multirecordresponse.md
+  - docs/models/components/patchoperation.md
+  - docs/models/components/patchrecordsresponse.md
+  - docs/models/components/record.md
+  - docs/models/components/recordancestry.md
+  - docs/models/components/recordbulkupdateparam.md
+  - docs/models/components/recordquery.md
+  - docs/models/components/recordversions.md
+  - docs/models/components/security.md
+  - docs/models/components/status.md
+  - docs/models/components/versioninfo.md
+  - docs/models/operations/bulkdeleterecordsrequest.md
+  - docs/models/operations/bulkdeleterecordsresponse.md
+  - docs/models/operations/createorupdaterecordsrequest.md
+  - docs/models/operations/createorupdaterecordsresponse.md
+  - docs/models/operations/deleterecordrequest.md
+  - docs/models/operations/deleterecordresponse.md
+  - docs/models/operations/fetchrecordsrequest.md
+  - docs/models/operations/fetchrecordsresponse.md
+  - docs/models/operations/getallrecordsrequest.md
+  - docs/models/operations/getallrecordsresponse.md
+  - docs/models/operations/getlatestrecordversionrequest.md
+  - docs/models/operations/getlatestrecordversionresponse.md
+  - docs/models/operations/getrecordsrequest.md
+  - docs/models/operations/getrecordsresponse.md
+  - docs/models/operations/getrecordversionsrequest.md
+  - docs/models/operations/getrecordversionsresponse.md
+  - docs/models/operations/getspecificrecordversionrequest.md
+  - docs/models/operations/getspecificrecordversionresponse.md
+  - docs/models/operations/healthmessagerequest.md
+  - docs/models/operations/healthmessageresponse.md
+  - docs/models/operations/inforequest.md
+  - docs/models/operations/inforesponse.md
+  - docs/models/operations/option.md
+  - docs/models/operations/purgerecordrequest.md
+  - docs/models/operations/purgerecordresponse.md
+  - docs/models/operations/updaterecordsmetadata1recordsresponsebody.md
+  - docs/models/operations/updaterecordsmetadata1request.md
+  - docs/models/operations/updaterecordsmetadata1response.md
+  - docs/models/operations/updaterecordsmetadata1responsebody.md
+  - docs/models/sdkerrors/apperror.md
+  - docs/sdks/health/README.md
+  - docs/sdks/info/README.md
+  - docs/sdks/query/README.md
+  - docs/sdks/records/README.md
+  - docs/sdks/sdk/README.md
+  - go.mod
+  - health.go
+  - info.go
+  - internal/hooks/hooks.go
+  - internal/utils/contenttype.go
+  - internal/utils/form.go
+  - internal/utils/headers.go
+  - internal/utils/json.go
+  - internal/utils/pathparams.go
+  - internal/utils/queryparams.go
+  - internal/utils/requestbody.go
+  - internal/utils/retries.go
+  - internal/utils/security.go
+  - internal/utils/utils.go
+  - models/operations/options.go
+  - models/sdkerrors/sdkerror.go
+  - query.go
+  - records.go
+  - retry/config.go
+  - sdk.go
+  - types/bigint.go
+  - types/date.go
+  - types/datetime.go
+  - types/decimal.go
+  - types/pointers.go
+examples:
+  createOrUpdateRecords:
+    speakeasy-default-create-or-update-records:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: [{}, {}, {}]
+  updateRecordsMetadata_1:
+    speakeasy-default-update-records-metadata-1:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: {"query": {"ids": ["<value>"]}, "ops": [{"value": ["<value>", "<value>", "<value>"]}, {"value": ["<value>", "<value>", "<value>"]}]}
+        application/json-patch+json: {"query": {"ids": ["<value>"]}, "ops": [{"value": ["<value>", "<value>", "<value>"]}, {"value": ["<value>", "<value>", "<value>"]}]}
+  deleteRecord:
+    "":
+      parameters:
+        path:
+          id: "tenant1:well:123456789"
+        header:
+          data-partition-id: "<id>"
+  bulkDeleteRecords:
+    speakeasy-default-bulk-delete-records:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: []
+      responses:
+        "207":
+          '*/*': "0xdE90a032da"
+  getLatestRecordVersion:
+    "":
+      parameters:
+        path:
+          id: "tenant1:well:123456789"
+        query:
+          attribute: ["data.wellName"]
+        header:
+          data-partition-id: "<id>"
+      responses:
+        "200":
+          application/json: "<value>"
+        "400": {}
+  purgeRecord:
+    "":
+      parameters:
+        path:
+          id: "tenant1:well:123456789"
+        header:
+          data-partition-id: "<id>"
+  getSpecificRecordVersion:
+    "":
+      parameters:
+        path:
+          id: "tenant1:well:123456789"
+          version: 123456789
+        query:
+          attribute: ["data.wellName"]
+        header:
+          data-partition-id: "<id>"
+      responses:
+        "200":
+          application/json: "<value>"
+        "400": {}
+  getRecordVersions:
+    "":
+      parameters:
+        path:
+          id: "tenant1:well:123456789"
+        header:
+          data-partition-id: "<id>"
+  getAllRecords:
+    "":
+      parameters:
+        query:
+          limit: 10
+          kind: "tenant1:public:well:1.0.2"
+        header:
+          data-partition-id: "<id>"
+  getRecords:
+    speakeasy-default-get-records:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      requestBody:
+        application/json: {"records": ["<value>", "<value>"]}
+  fetchRecords:
+    "":
+      parameters:
+        header:
+          data-partition-id: "<id>"
+          frame-of-reference: "units=SI;crs=wgs84;elevation=msl;azimuth=true north;dates=utc;"
+      requestBody:
+        application/json: {"records": ["<value>"]}
+  info:
+    speakeasy-default-info:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+  healthMessage:
+    speakeasy-default-health-message:
+      parameters:
+        header:
+          data-partition-id: "<id>"
+      responses:
+        "200":
+          '*/*': "<value>"

@@ -1,0 +1,16 @@
+# Record
+
+
+## Fields
+
+| Field                                                                   | Type                                                                    | Required                                                                | Description                                                             |
+| ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| `ID`                                                                    | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Version`                                                               | **int64*                                                                | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Kind`                                                                  | **string*                                                               | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `ACL`                                                                   | [components.ACL](../../models/components/acl.md)                        | :heavy_check_mark:                                                      | N/A                                                                     |
+| `Legal`                                                                 | [*components.Legal](../../models/components/legal.md)                   | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Data`                                                                  | map[string][components.Data](../../models/components/data.md)           | :heavy_check_mark:                                                      | N/A                                                                     |
+| `Ancestry`                                                              | [*components.RecordAncestry](../../models/components/recordancestry.md) | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Meta`                                                                  | []map[string][components.Meta](../../models/components/meta.md)         | :heavy_minus_sign:                                                      | N/A                                                                     |
+| `Tags`                                                                  | map[string]*string*                                                     | :heavy_minus_sign:                                                      | N/A                                                                     |
